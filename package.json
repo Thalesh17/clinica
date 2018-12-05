@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch-poll": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --watch-poll --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+    "devDependencies": {
+        "axios": "^0.17",
+        "babel-core": "^6.26.3",
+        "babel-loader": "^8.0.4",
+        "babel-preset-env": "^1.7.0",
+        "bootstrap-sass": "^3.3.7",
+        "jquery": "^3.2",
+        "laravel-mix": "^1.7.2",
+        "lodash": "^4.17.4",
+        "mini-css-extract-plugin": "^0.4.5",
+        "node-sass": "^4.10.0",
+        "vue": "^2.5.7",
+        "webpack": "^4.26.1",
+        "webpack-cli": "^3.1.2"
+    },
+    "dependencies": {
+        "datatables.net-dt": "^1.10.19",
+        "extract-text-webpack-plugin": "^4.0.0-beta.0",
+        "jquery-datetimepicker": "^2.5.20",
+        "laravel-echo": "^1.5.0",
+        "npm": "^6.4.1",
+        "pusher-js": "^4.3.1",
+        "vue-axios": "^2.1.4",
+        "vue-router": "^3.0.2"
+    }
+}

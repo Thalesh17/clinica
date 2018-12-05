@@ -1,0 +1,61 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\VDownloader;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseGit\bin;C:\wamp64\bin\php\php7.2.4;C:\composer;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\PostgreSQL\9.5\bin;C:\Users\CARREFOUR JPB\AppData\Local\Microsoft\WindowsApps;C:\Users\CARREFOUR JPB\AppData\Roaming\Composer\vendor\bin;C:\Users\CARREFOUR JPB\AppData\Roaming\npm;C:\wamp64\bin\php\php7.2.4;
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  10.14.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, copyfile 'C:\Users\CARREFOUR JPB\AppData\Local\Yarn\Cache\v4\npm-@xtuc-long-4.2.1-5c85d662f76fa1d34575766c5dcd6615abcd30d8\node_modules\@xtuc\long\index.d.ts' -> 'C:\Users\CARREFOUR JPB\Desktop\projeto\project\node_modules\@xtuc\long\index.d.ts'
+
+npm manifest: 
+  {
+      "private": true,
+      "scripts": {
+          "dev": "cross-env NODE_ENV=development node_modules/webpack/binnpm install --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+          "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+          "watch-poll": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --watch-poll --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+          "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+          "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+      },
+      "devDependencies": {
+          "axios": "^0.17",
+          "babel-core": "^6.26.3",
+          "babel-loader": "^8.0.4",
+          "babel-preset-env": "^1.7.0",
+          "bootstrap-sass": "^3.3.7",
+          "cross-env": "^5.2.0",
+          "jquery": "^3.2",
+          "laravel-mix": "^1.7.2",
+          "lodash": "^4.17.4",
+          "mini-css-extract-plugin": "^0.4.5",
+          "node-sass": "^4.10.0",
+          "vue": "^2.5.7",
+          "webpack": "^4.26.1",
+          "webpack-cli": "^3.1.2"
+      },
+      "dependencies": {
+          "datatables.net-dt": "^1.10.19",
+          "extract-text-webpack-plugin": "^4.0.0-beta.0",
+          "jquery-datetimepicker": "^2.5.20",
+          "laravel-echo": "^1.5.0",
+          "npm": "^6.4.1",
+          "pusher-js": "^4.3.1",
+          "vue-axios": "^2.1.4",
+          "vue-router": "^3.0.2"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
